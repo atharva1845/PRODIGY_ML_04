@@ -1,5 +1,8 @@
 **✋ Hand Gesture Recognition using Mediapipe**
+
+
 Overview
+
 Hand Gesture Recognition is a crucial technology in human-computer interaction, enabling touchless control, sign language interpretation, and immersive experiences in AR/VR applications. This project leverages OpenCV and Mediapipe to accurately detect and classify hand gestures from image or video data in real time.
 
 By using Mediapipe’s advanced hand-tracking model, this system can recognize multiple gestures, making it suitable for applications such as virtual controls, assistive technologies, and gaming interfaces.
