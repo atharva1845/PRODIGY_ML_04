@@ -50,10 +50,6 @@ def detect_hand_gesture(hand_landmarks, frame_w, frame_h):
         return "Pointing"
     if fingers == [0, 1, 1, 0, 0]:
         return "Victory"
-    if fingers == [0, 0, 1, 0, 0]:
-        return "Fuck Off"
-    if fingers == [0, 0, 0, 0, 1]:
-        return "Susu"
     return "Unknown"
 def run_gesture_recognition():
     cap = cv2.VideoCapture(0)
